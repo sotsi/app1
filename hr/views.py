@@ -16,7 +16,7 @@ import numpy as np
 import matplotlib.pyplot as plt, mpld3
 
 	
-def hr(request):
+def mplimage(request):
 
 	class LinkedView(plugins.PluginBase):
 		"""A simple plugin showing how multiple axes can be linked"""

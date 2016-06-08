@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^mplimage', 'mpl.views.mplimage'),
 	url(r'^blog', 'blog.views.post_list'),
-	url(r'^hr', 'hr.views.hr'),
+	url(r'^hr', 'hr.views.mplimage'),
 ]
